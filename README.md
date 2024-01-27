@@ -209,3 +209,10 @@ vagrant@ubuntu-focal:~/ALX_SQL_Refresher$
  * id = 2, name = “Alex”, score = 3
  * id = 3, name = “Bob”, score = 14
  * id = 4, name = “George”, score = 8
+
+```shell
+vagrant@ubuntu-focal:~/ALX_SQL_Refresher$ cat 9-full_creation.sql | mysql -hlocalhost -uroot -p hbtn_0c_0
+Enter password: 
+vagrant@ubuntu-focal:~/ALX_SQL_Refresher$
+```
+
