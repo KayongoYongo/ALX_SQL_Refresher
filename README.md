@@ -364,13 +364,13 @@ For this task and subsequent tasks, we need to download a table dump file and im
 In order to achieve that, we need to do two steps to achieve our goal.
 
 **First step**
-***Download the dump file using curl:***
+**Download the dump file using curl:**
 ``bash
 curl -o temperatures.sql "link to the dump file"
 ``
 
 **Second step**
-***Import the table into the database***
+**Import the table into the database**
 ```bash
 mysql -u your_username -p your_database_name < table_dump.sql
 ```
